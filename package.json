@@ -1,0 +1,23 @@
+{
+  "name": "lint-configs",
+  "version": "1.0.0",
+  "description": "Package for automatically adding eslint config and stylelint configs to your project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aleksei Sergienko",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.3.0",
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.18.2",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^28.1.0"
+  }
+}
