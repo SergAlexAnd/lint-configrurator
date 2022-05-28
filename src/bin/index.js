@@ -1,15 +1,12 @@
-#!/usr/bin/env node
-
-import program from 'commander';
+import program from "commander";
 // { prompt } = require('inquirer'),
 // chalk = require('chalk'),
 // fs = require('fs')
 
-import { version } from '../../package.json';
+// eslint-disable-next-line import/extensions
+import { version } from "../../package.json";
 
-program
-  .version(version)
-  .description('Lint configuration files creator.');
+program.version(version).description("Lint configuration files creator.");
 
 if (!program.args.length) program.help();
 
